@@ -15,11 +15,13 @@ const AboutMe = () => {
             </div>
             <div>
                 <SectionSubHeader header={`Senior Software Engineer`} />
-                <SectionSubHeader header="€ 48000 per Annun" />
+                <SectionSubHeader header="€ 48000 per Annum" />
                 <SectionSubHeader header={`B.E(Computer Science)`} />
             </div>
         </section>
-        <section>
+        <section className= 'c-profile-description'>
+            Computer Science Engineer by Proffesion. Freelancer and Stock Investor as a partime.<br/>
+            A guy who <b>Code</b> the world for living, <b>Cook</b> deliciously when you feel hungry, <b>Travel</b> to make memories, <b>Sing</b> songs when feel bored, <b>Play games</b> in the free time
         </section>
     </div>
   );
