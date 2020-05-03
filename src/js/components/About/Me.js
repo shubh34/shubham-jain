@@ -39,8 +39,7 @@ export const details = [
     },{
         header: 'LifeStyle',
         detail: 'Vegetarian/Vegan, Religious'  
-    }, 
-    {
+    }, {
         header: 'Hobbies & Interest',
         detail: 'Cooking, Studying, Singing, Dancing, Travelling, Playing Guitar(Still Learning), Playing games like Chess, Carrom, Badminton etc'
     }
@@ -53,9 +52,9 @@ const AboutMe = () => {
         <SectionHeader header="Subham Jain" align='left'/>
         <section className= 'c-profile-summary'>
             <div>
-                <SectionSubHeader header={`28 Years 5' 5"`} />
+                <SectionSubHeader header={`28 Years`} />
+                <SectionSubHeader header={`5' 5"`} />
                 <SectionSubHeader header="+44 7881346229" />
-                <SectionSubHeader header={``} />
             </div>
             <div>
                 <SectionSubHeader header={`Senior Software Engineer`} />

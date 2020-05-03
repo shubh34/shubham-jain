@@ -5,8 +5,20 @@
     display: flex;
     justify-content: space-between;
 }
+.c-profile-description {
+    padding-top: 24px;
+    p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+}
 
 .c-profile-details {
     display: flex;
     flex-direction: column;
+}
+.c-profile-family-link {
+    align-items: center;
+    text-align: center;
+    align-items: center;
 }

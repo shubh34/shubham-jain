@@ -1,0 +1,26 @@
+.c-image-slider {
+    position: relative;
+    .c-my-profile {
+        width: 100%;
+    }
+    button {
+        border: 0;
+    }
+}
+.c-image-slider-chevron {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    top:30%;
+    background: black;
+    opacity: .5;
+   
+}
+.c-image-slider-chevron-left {
+    left: 0;
+    transform: rotate(-90deg);
+}
+.c-image-slider-chevron-right {
+    right: 0;
+    transform: rotate(90deg);
+}
