@@ -10,7 +10,7 @@ import ImageSlider from '../../shared-components/ImageSlider/ImageSlider';
 import Family from '../About/Family';
 import { getImages } from '../../utils/imageUtils';
 const Home = () => {
-    const [activeTab, setActiveTab] = useState('about-me')
+    const [activeTab, setActiveTab] = useState('about-family')
     const isAboutMeActive = activeTab === 'about-me';
   return (
     <div>

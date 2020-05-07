@@ -16,7 +16,7 @@ export const details = [
     },
     {
         header: 'Place Of Birth',
-        detail: 'Gaya Ji, Bihar',
+        detail: 'Gaya, Bihar',
     },
     {
         header: 'Caste & Gotra',
@@ -35,7 +35,7 @@ export const details = [
         detail: '€48000 + bonus per year'
     },{
         header: 'EatingStyle',
-        detail: 'Vegetarian/Vegan, Religious'  
+        detail: 'Vegetarian'  
     }, {
         header: 'Hobbies & Interest',
         detail: 'Cooking, Studying, Singing, Travelling, Playing Guitar, Games like Chess, Carrom, Badminton etc'
