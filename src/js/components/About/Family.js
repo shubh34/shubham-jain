@@ -1,29 +1,28 @@
 import React from 'react';
 import './Me.scss'
-import SectionHeader from '../../shared-components/SectionHeader/SectionHeader';
-import SectionSubHeader from '../../shared-components/SectionSubHeader/SectionSubHeader';
 import { SubDetails } from './SubDetails/SubDetails';
+import SectionHeader from '../../shared-components/SectionHeader/SectionHeader';
 
 export const details = [
     {
         header: 'Living In',
-        detail: 'Gaya, Bihar'
+        detail: ['Gaya, Bihar']
     },
     {
         header: 'Family Backgound',
-        detail: 'Joint Family, Middle Class'
+        detail: ['Joint Family, Middle Class']
     },
     {
-        header: 'Father\'s Name & Occupation',
-        detail: 'Shri Ajay Jain, Busniess man'
+        header: 'Father',
+        detail: ['Shri Ajay Jain', 'Business Man (Cloth Merchant)']
     },
     {
-        header: 'Mother\'s Name & Occupation',
-        detail: 'Smt. Asha Jain, Housewife'
+        header: 'Mother',
+        detail: ['Smt. Asha Jain', 'Housewife']
     },
     {
-        header: 'Brother\'s Name & Occupation',
-        detail: 'Ankhil Jain, Busniess man'
+        header: 'Brother',
+        detail: ['Ankhil Jain', 'Education: Graduate(BCOM)', 'Business Man (Cloth Merchant)']
     },
 
 ]
@@ -37,7 +36,25 @@ const AboutFamily = () => {
             <p>We are Religious and follow Jainism.</p>
         </section>
         <section className= 'c-profile-details'>
-            {details.map(({header, detail}, index) => <SubDetails key={index} header={header} detail={detail} />)}
+            {details.map(({header, detail}, index) => <SubDetails key={index} header={header} details={detail} />)}
+        </section>
+        <section className= 'c-family-description'>
+            <SectionHeader header="Paternal Family" align={'left'} />
+            <SubDetails header={'Grand Father'} details={['Shri Ratan Lal Jain']} />
+            <SubDetails header={'Grand Mother'} details={['Smt Indramani Devi Jain']} />
+            <SubDetails header={'Living In'} details={['Gaya, Bihar']} />
+            <SubDetails header={'Family Backgound'} details={['Joint Family, Middle Class', 'Religious']} />
+            <SubDetails header={'Father\'s Brother'} details={['4', 'Lives Seprately']} />
+            <SubDetails header={'Father\'s Sister'} details={['1', 'Lives in Kolkata']} />
+        </section>
+        <section className= 'c-family-description'>
+            <SectionHeader header="Maternal Family" align={'left'} />
+            <SubDetails header={'Grand Father'} details={['Late Shri Ratan Lal Jain']} />
+            <SubDetails header={'Grand Mother'} details={['']} />
+            <SubDetails header={'Living In'} details={['Mihijam, Jharkhand']} />
+            <SubDetails header={'Family Backgound'} details={['Joint Family, Middle Class', 'Religious']} />
+            <SubDetails header={'Mother\'s Brother'} details={['3', 'Lives Seprately']} />
+            <SubDetails header={'Mother\'s Sister'} details={['None']} />
         </section>
     </div>
   );

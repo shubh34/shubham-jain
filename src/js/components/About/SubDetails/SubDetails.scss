@@ -1,6 +1,8 @@
 .c-sub-details-container {
     padding-top: 4px;
     padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
 }
 .c-sub-details {
     font-size: 14px;

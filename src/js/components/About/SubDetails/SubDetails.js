@@ -3,9 +3,9 @@ import React from 'react';
 import './SubDetails.scss';
 import SectionSubHeader from '../../../shared-components/SectionSubHeader/SectionSubHeader';
 
-export const SubDetails = ({ header, detail}) => (
+export const SubDetails = ({ header, details = []}) => (
     <div className="c-sub-details-container">
-        <SectionSubHeader header={header} />
-        <span className="c-sub-details">{detail}</span>
+        {header && <SectionSubHeader header={header} />}
+        {details.map((detail) => <span key={detail} className="c-sub-details">{detail}</span>)}
     </div>
 );
