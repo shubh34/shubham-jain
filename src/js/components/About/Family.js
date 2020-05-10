@@ -50,7 +50,7 @@ const AboutFamily = () => {
         <section className= 'c-family-description'>
             <SectionHeader header="Maternal Family" align={'left'} />
             <SubDetails header={'Grand Father'} details={['Late Shri Ratan Lal Jain']} />
-            <SubDetails header={'Grand Mother'} details={['']} />
+            <SubDetails header={'Grand Mother'} details={['Late Smt. ChradraPrabha Devi Jain']} />
             <SubDetails header={'Living In'} details={['Mihijam, Jharkhand']} />
             <SubDetails header={'Family Backgound'} details={['Joint Family, Middle Class', 'Religious']} />
             <SubDetails header={'Mother\'s Brother'} details={['3', 'Lives Seprately']} />
