@@ -20,7 +20,7 @@ export const details = [
     },
     {
         header: 'Caste & Gotra',
-        detail: ['Jain(Kala)']
+        detail: ['Jain (Kala)']
     },{
         header: 'Appearance',
         detail: ['Fair']
@@ -34,7 +34,7 @@ export const details = [
         header: 'Earning',
         detail: ['€48000 + bonus per year'],
     },{
-        header: 'EatingStyle',
+        header: 'Eating Style',
         detail: ['Vegetarian'] 
     }, {
         header: 'Hobbies & Interest',
@@ -61,7 +61,7 @@ const AboutMe = ({goToFamily}) => {
         </section>
         <section className= 'c-profile-description'>
             <SectionHeader header="Who I Am :" align='left'/>
-            <p>Computer Science Engineer by Profession. Freelancer and Stock Investor for Passive income.</p>
+            <p>Computer Science Engineer by Profession. Stock Investor for Passive income.</p>
             <p>I am a guy who <b>Code</b> the world for living, <b>Cook</b> deliciously when feel hungry, <b>Travel</b> to make memories, <b>Sing</b> songs when feel bored, <b>Play games</b> in the free time.</p>
         </section>
         <section className= 'c-profile-details'>
