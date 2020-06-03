@@ -44,7 +44,7 @@ const AboutFamily = () => {
             <SubDetails header={'Grand Mother'} details={['Smt Indramani Devi Jain']} />
             <SubDetails header={'Living In'} details={['Gaya, Bihar']} />
             <SubDetails header={'Family Backgound'} details={['Joint Family, Middle Class', 'Religious']} />
-            <SubDetails header={'Father\'s Brother'} details={['4', 'Lives Seprately']} />
+            <SubDetails header={'Father\'s Brother'} details={['4', 'Lives separately']} />
             <SubDetails header={'Father\'s Sister'} details={['1', 'Lives in Kolkata']} />
         </section>
         <section className= 'c-family-description'>
@@ -53,7 +53,7 @@ const AboutFamily = () => {
             <SubDetails header={'Grand Mother'} details={['Late Smt. ChradraPrabha Devi Jain']} />
             <SubDetails header={'Living In'} details={['Mihijam, Jharkhand']} />
             <SubDetails header={'Family Backgound'} details={['Joint Family, Middle Class', 'Religious']} />
-            <SubDetails header={'Mother\'s Brother'} details={['3', 'Lives Seprately']} />
+            <SubDetails header={'Mother\'s Brother'} details={['3', 'Lives separately']} />
             <SubDetails header={'Mother\'s Sister'} details={['None']} />
         </section>
     </div>
